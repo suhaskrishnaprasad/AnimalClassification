@@ -11,27 +11,8 @@ DATASET:
 Dataset contains pictures of 5 animals, namely - Lion, Tiger, Cheetah, Fox and Wolf split into training and validation set. The images were procured individually and pre-processed by first changing the dimension and scaling it to a smaller range to reduce size of the dataset.
 
 MODEL SUMMARY:
-Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- conv2d (Conv2D)             (None, 252, 252, 32)      2432                                                                
- max_pooling2d (MaxPooling2D  (None, 84, 84, 32)       0 )                                                                                                                                
- conv2d_1 (Conv2D)           (None, 82, 82, 32)        9248                                                                    
- max_pooling2d_1 (MaxPooling  (None, 41, 41, 32)       0         
- 2D)                                                                                                                            
- conv2d_2 (Conv2D)           (None, 39, 39, 64)        18496                                                                  
- max_pooling2d_2 (MaxPooling  (None, 19, 19, 64)       0         
- 2D)                                                                                                                            
- flatten (Flatten)           (None, 23104)             0                                                                    
- dense (Dense)               (None, 512)               11829760                                                          
- dropout (Dropout)           (None, 512)               0                                                                  
- dense_1 (Dense)             (None, 128)               65664                                                               
- dense_2 (Dense)             (None, 5)                 645                                                              
-=================================================================
-Total params: 11,926,245
-Trainable params: 11,926,245
-Non-trainable params: 0
+![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/64ae5046-327a-48fb-8c2d-68a6202ff9ac)
+
 
  ![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/a73508df-9481-4cbe-a681-c8de16491f63)
  ![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/9a54616f-2df4-4c20-9710-0c9fe6677d16)
