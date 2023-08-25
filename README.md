@@ -10,12 +10,7 @@ The fine-tuned model is trained on the augmented training set and evaluated on t
 DATASET:
 Dataset contains pictures of 5 animals, namely - Lion, Tiger, Cheetah, Fox and Wolf split into training and validation set. The images were procured individually and pre-processed by first changing the dimension and scaling it to a smaller range to reduce size of the dataset.
 
-MODEL SUMMARY:
-![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/64ae5046-327a-48fb-8c2d-68a6202ff9ac)
 
-
- ![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/a73508df-9481-4cbe-a681-c8de16491f63)
- ![image](https://github.com/suhaskrishnaprasad/AnimalClassification/assets/116102740/9a54616f-2df4-4c20-9710-0c9fe6677d16)
 
 
  
